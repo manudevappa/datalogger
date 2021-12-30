@@ -101,7 +101,6 @@ $(document).ready(function() {
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2021 Copyright:
-    <a href="https://rioshtech.com/"> Riosh Technology</a>
   </div>
   <!-- Copyright -->
 
