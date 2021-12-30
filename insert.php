@@ -17,7 +17,7 @@
 
 <?php
 include 'mysql.php';
-$json = file_get_contents("https://api.thingspeak.com/channels/1337388/feeds.json?api_key=5FN5RB100M0CTAEG");
+$json = file_get_contents("https://api.thingspeak.com/channels/*******/feeds.json?api_key=**************");
 $jsondata = json_decode($json);
 $result = count($jsondata->feeds);
 
