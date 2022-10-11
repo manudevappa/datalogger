@@ -1,15 +1,11 @@
 # datalogger
 Things speak Data logger using PHP and Mysql
-Things Speak Data Logger
 
-Problem Statement:
 
-Things speak API provide only last 100 entry. So when we not having the cost to invest in Server and Developer, But we need All data to be collected, So Here you can get Simple Data logger for your Sensors. 
+This solution is used when we have multiple sensors sending multiple paramters to Thingspeak cloud over HTTPS. 
 
-Here I used only One API and Send all Data to same API using Different Unique ID seperated with ,(Comma). When we reaading Json file it will be easy to split data with respect to Comma. 
+Working: 
+When the Sensor network's data is send to thingspeak each device can be identified using Unique keys. Here 
+Here I used only One API and Send all Data to same API using Different Unique ID seperated with ,(Comma). When we reaading Json file it will be easy to decode the JSON object data with respect to Comma. 
 
-Steps 
-1. Get Things speak Read API
-2. Pass it in API Section given in Code commaant section 
-3. Create Database 
-4. Run it and See Data Logger
+The code is written for specific application (energy meter data) but it can be modified to other applications also.
